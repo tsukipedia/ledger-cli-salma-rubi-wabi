@@ -1,0 +1,39 @@
+{
+	"name": "ledger-cli",
+	"description": "a simple ledger implementation",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"ledger-cli": "index.js",
+		"ledger": "index.js"
+	},
+	"author": {
+		"name": "Salma Rubi Wabi",
+		"email": "salma.rubiwabi@gmail.com",
+		"url": "salma.rubiwabi@gmail.com"
+	},
+	"keywords": [
+		"ledger-cli",
+		"Salma Rubi Wabi"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"decimal.js": "^10.4.3",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.8"
+	}
+}
