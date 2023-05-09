@@ -1,3 +1,6 @@
+# Running this
+I know this isn't a good practice but to run this you will have to un-compress the node_modules.zip file contents into a folder named node_modules in your local directory. I did it this way because git sometimes doesn't allow me to connect my local repos to my remote repos, so I can only use github web to add stuff in my remote repo. I have tried to fix this but I can't, and whenever I ask for help it magically starts working so we can't troubleshoot, sorry :c
+
 # Commands
 ## balance
 Reports the current balance of all accounts. It accepts a list of optional names, which confine the balance report to the matching accounts.
