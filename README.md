@@ -1,6 +1,9 @@
 # Running this
-I know this isn't a good practice but to run this you will have to un-compress the node_modules.zip file contents into a folder named node_modules in your local directory. I did it this way because git sometimes doesn't allow me to connect my local repos to my remote repos, so I can only use github web to add stuff in my remote repo. I have tried to fix this but I can't, and whenever I ask for help it magically starts working so we can't troubleshoot, sorry :c
-
+To run this you have to go to the directory where it resides in your terminal, run any of the avaiable commands with prefix ``./index.js``. You will likely get a permission denied error, to fix that run the following command:
+```
+$   chmod 777 index.js
+```
+This will change the proyect's permissions and allow you to run it.
 # Commands
 ## balance
 Reports the current balance of all accounts. It accepts a list of optional names, which confine the balance report to the matching accounts.
